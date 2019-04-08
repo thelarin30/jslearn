@@ -14,8 +14,9 @@ let appData = {
 
 let articleExpense = prompt("Введите обязательную статью расходов в этом месяце","");
 let expense = prompt("Во сколько обойдется?","");
-appData.expenses = {
-    articleExpense: expense
-};
+let articleExpense1 = prompt("Введите обязательную статью расходов в этом месяце","");
+let expense1 = prompt("Во сколько обойдется?","");
 
-alert(+appData.budget/30);
+appData.expenses.articleExpense = expense;
+appData.expenses.articleExpense1 = expense1;
+alert(+appData.budget / 30);
